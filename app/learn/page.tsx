@@ -9,7 +9,8 @@ export const metadata: Metadata = {
   description: "Here are some verben to learn for today",
 };
 
-const TODAYS_WORDS_COUNT = 10;
+const TODAYS_WORDS_COUNT = 5;
+const DAYS_TO_LEARN = 5; // revalidate in 5 days
 
 const LearnPage = async () => {
   const max = await prisma.verben.count();
@@ -20,7 +21,7 @@ const LearnPage = async () => {
     [],
     {
       tags: ['words'],
-      revalidate: 60 * 60 * 24
+      revalidate: DAYS_TO_LEARN * 60 * 60 * 24
     }
   );
 
