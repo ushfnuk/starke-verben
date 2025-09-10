@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Starken verben sind toll!",
-  description: "Lern starke verben",
+  title: "Starken Verben sind toll!",
+  description: "Learn starken Verben",
 };
 
 export default function RootLayout({
