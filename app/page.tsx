@@ -22,7 +22,7 @@ export default async function Home() {
               <td>{verb.dritte_form}</td>
               <td>{verb.preteritum}</td>
               <td>{verb.perfekt}</td>
-              <td>{verb.ubersatz}</td>
+              <td>{verb.ubersetzung}</td>
             </tr>
           )}
         </tbody>
