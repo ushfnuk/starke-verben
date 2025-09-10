@@ -2,7 +2,7 @@ import { prisma } from "@/prisma/client";
 import type { Metadata } from "next";
 import { unstable_cache } from "next/cache";
 import MoreButton from "../components/MoreButton";
-import { getIds } from "../libs/utils";
+import { Colums, getIds } from "../libs/utils";
 
 export const metadata: Metadata = {
   title: "Learn new Verben everyday!",
@@ -44,11 +44,11 @@ const LearnPage = async () => {
       <table className='table table-lg md:table-md'>
         <thead>
           <tr>
-            <th>Infinitiv</th>
-            <th>3. Person Sg. Präsens (er/sie/es)</th>
-            <th>Präteritum</th>
-            <th>Perfekt</th>
-            <th>Übersetzung</th>
+            <th>{Colums.Infinitiv}</th>
+            <th>{Colums.Dritte}</th>
+            <th>{Colums.Preteritum}</th>
+            <th>{Colums.Perfekt}</th>
+            <th>{Colums.Ubersetzung}</th>
           </tr>
         </thead>
         <tbody>

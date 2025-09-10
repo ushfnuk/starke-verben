@@ -9,3 +9,11 @@ export function getIds(count: number, max: number): number[] {
 
   return numbers.slice(0, count);
 }
+
+export enum Colums {
+  Infinitiv = 'Infinitiv',
+  Dritte = '3. Person',
+  Preteritum = 'Präteritum',
+  Perfekt = 'Perfekt',
+  Ubersetzung = 'Übersetzung',
+}
