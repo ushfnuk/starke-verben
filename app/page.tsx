@@ -5,7 +5,7 @@ export default async function Home() {
 
   return (
     <main>
-      <table className='table table-md'>
+      <table className='table table-lg md:table-md'>
         <thead>
           <tr>
             <th>Infinitiv</th>
