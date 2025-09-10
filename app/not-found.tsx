@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ти що робиш?",
+  description: "You are not supposed to be here!",
+};
+
 const NotFoundPage = () => {
   return (
     <main className="grid place-content-center h-screen w-screen">
