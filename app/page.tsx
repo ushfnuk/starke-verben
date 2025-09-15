@@ -6,7 +6,7 @@ export default async function Home() {
 
   return (
     <main>
-      <table className='table table-lg md:table-md'>
+      <table className='table table-lg table-pin-rows md:table-md'>
         <thead>
           <tr>
             <th>{Colums.Infinitiv}</th>

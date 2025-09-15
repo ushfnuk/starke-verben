@@ -41,7 +41,7 @@ const LearnPage = async () => {
         <h1 className="hidden md:block md:text-2xl md:text-accent-content md:p-5">Here are some words for today:</h1>
         <MoreButton>More words!</MoreButton>
       </header>
-      <table className='table table-lg md:table-md'>
+      <table className='table table-lg md:table-xl'>
         <thead>
           <tr>
             <th>{Colums.Infinitiv}</th>
