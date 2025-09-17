@@ -1,6 +1,6 @@
-# Starken verben
+# Starke Verben
 
-Learn starken Verben auf Deutsch with pleasure!
+Learn starke Verben auf Deutsch with pleasure!
 
 ## Getting Started
 
@@ -18,4 +18,4 @@ npm run dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see starken Verben auf Deutsch.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see starke Verben auf Deutsch.

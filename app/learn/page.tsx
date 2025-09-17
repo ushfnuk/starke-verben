@@ -6,7 +6,7 @@ import { Colums, getIds } from "../libs/utils";
 
 export const metadata: Metadata = {
   title: "Learn new Verben everyday!",
-  description: "Here are some verben to learn for today",
+  description: "Here are some Verben to learn for today",
 };
 
 const TODAYS_WORDS_COUNT = 5;
