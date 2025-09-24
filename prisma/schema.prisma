@@ -12,7 +12,7 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:verben.db"
+  url      = "file:../public/verben.db"
 }
 
 model verben {
